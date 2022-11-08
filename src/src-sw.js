@@ -6,7 +6,7 @@
 // code you'd like.
 // You can also remove this file if you'd prefer not to use a
 // service worker, and the Workbox build step will be skipped.
-
+importScripts('https://s-eu-1.pushpushgo.com/636a7a47db3f60180af7eba2/worker.js');
 import { clientsClaim } from 'workbox-core';
 import { ExpirationPlugin } from 'workbox-expiration';
 import { precacheAndRoute } from 'workbox-precaching';
